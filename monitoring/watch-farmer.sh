@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/root/chia-blockchain/venv/bin/chia farm summary >> /root/farmer_summary.log
+/home/chia/chia-blockchain/venv/bin/chia farm summary >> /home/chia/farmer_summary.log

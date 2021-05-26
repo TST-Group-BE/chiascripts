@@ -7,7 +7,7 @@ After=network-online.target
 User=root
 Type=simple
 Restart=on-failure
-ExecStart=/root/ChiaMonitor/mtail  --progs /root/ChiaMonitor/ --logs /root/.chia/mainnet/log/debug.log --logs /root/farmer_summary.log --poll_interval 3000ms
+ExecStart=/home/chia/ChiaMonitor/mtail  --progs /home/chia/ChiaMonitor/ --logs /home/chia/.chia/mainnet/log/debug.log --logs /home/chia/farmer_summary.log --poll_interval 3000ms
 
 [Install]
 WantedBy=multi-user.target

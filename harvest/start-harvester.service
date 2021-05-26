@@ -3,7 +3,7 @@ After=network.service
 
 [Service]
 Type=forking
-ExecStart=/bin/bash -c "source /root/chia-blockchain/activate && sleep 10 && chia start harvester"
+ExecStart=/bin/bash -c "source /home/chia/chia-blockchain/activate && sleep 10 && chia start harvester"
 
 [Install]
 WantedBy=default.target

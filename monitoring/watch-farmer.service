@@ -6,7 +6,7 @@ After=network-online.target
 [Service]
 User=root
 Type=simple
-ExecStart=/root/watch-farmer.sh
+ExecStart=/home/chia/watch-farmer.sh
 
 [Install]
 WantedBy=multi-user.target

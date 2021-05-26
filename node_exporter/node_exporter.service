@@ -7,7 +7,7 @@ After=network-online.target
 User=root
 Type=simple
 Restart=on-failure
-ExecStart=/root/node_exporter/node_exporter
+ExecStart=/home/chia/node_exporter/node_exporter
 
 [Install]
 WantedBy=multi-user.target
